@@ -4,12 +4,12 @@
 O Iquest é um projeto de um site voltado a um guia de carreira para as áreas relacionadas à tecnologia e ao sistema de informações, onde o através desse mecanismo o usuário fará um quiz que traçara o perfil comportamental e como retorno lhe será indicado áreas de trabalho compatíveis com suas respostas e trazendo também um cronograma de iniciação e estudo da área. 
 ## Alunos integrantes da equipe
 
-Samuel Lamera Portes Carneiro 
-Kaiky Leles 
-Thiago Lacerda
-Ícaro Starling
-Jeziel Suzana
-Gustavo Antônio
+* Samuel Lamera Portes Carneiro 
+* Kaiky Leles 
+* Thiago Lacerda
+* Ícaro Starling
+* Jeziel Suzana
+* Gustavo Antônio
 
 ## Professores responsáveis
 
