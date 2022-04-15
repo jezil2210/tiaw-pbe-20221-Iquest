@@ -181,7 +181,43 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Wireframes e User Flow
 
-![Exemplo de Wireframe](images/wireframe-example.png)
+### Home
+
+![Exemplo de Wireframe](images/home.jpg)
+
+### Tela Inicial
+
+![Exemplo de Wireframe](images/Tela_Inicial.jpg)
+
+### Teste Aptidão
+
+![Exemplo de Wireframe](images/Teste_Aptidao.jpg)
+
+### Front-End
+
+![Exemplo de Wireframe](images/front.jpg)
+
+### Back-End
+
+![Exemplo de Wireframe](images/back.jpg)
+
+### Full-Stack
+
+![Exemplo de Wireframe](images/full.jpg)
+
+### DevOps
+
+![Exemplo de Wireframe](images/devops.jpg)
+
+### Redes
+
+![Exemplo de Wireframe](images/redes.jpg)
+
+### Segurança
+
+![Exemplo de Wireframe](images/segurança-example.jpg)
+
+
 
 
 # Metodologia
@@ -200,9 +236,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Os papéis foram dividos a partir do trello e focados em 2 partes, os membros focados na parte do front-end do site e a outra parte no back-end do site.
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
+| Membro  | Papel              |
+|-----------|-------------------------|
+|Samuel Lamera| Teste/Full-Stack | 
+|Jeziel Suzana| Teste/Front-End | 
+|Kaiky Leles| Teste/Front-End |  
+|Ícaro Starling| Teste/Back-End |
+|Thiago Lacerda| Teste/Back-End | 
+|Gustavo Antonio | Teste/Back-End | 
+
 
 
 ## Ferramentas
