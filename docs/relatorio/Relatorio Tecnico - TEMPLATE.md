@@ -215,7 +215,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ### Segurança
 
-![Exemplo de Wireframe](images/segurança-example.jpg)
+![Exemplo de Wireframe](images/segurança.jpg)
 
 
 
