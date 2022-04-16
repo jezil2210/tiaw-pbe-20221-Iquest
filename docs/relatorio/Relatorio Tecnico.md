@@ -65,17 +65,7 @@ A tecnologia da informação possui uma gama de possibilidades muito alta, geran
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
+Vendo as duvidas dos usuarios quanto a questao era saber por onde começar, vemos uma importancia de sanar essa duvida. E por isso surgiu o Iquest que tem como maior justificativa sanar duvida de novos estudantes que sonham em ingressar na área de TI. Além disso, a partir das entrevistas apresentadas no documento de Design Thinking foi possível comprovar que o Iquest seria uma solução ideal para os problemas relatados pelos estudantes.
 
 ## Público-Alvo
 
@@ -88,6 +78,9 @@ Neste documento serão apresentados os aspectos relevantes para o desenvolviment
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
+
+> ![Caracteristicas Persona](images/Persona_Carac.jpg)
+> ![Mapa de Empatia](images/mapa_empatia.jpg)
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -108,7 +101,7 @@ Neste documento serão apresentados os aspectos relevantes para o desenvolviment
 > 
 > **Exemplo de Persona**
 > 
-> ![Exemplo de Persona](imaages/../images/persona.png)
+> ![Exemplo de Persona](images/home.jpg)
 > 
 > Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
 
@@ -216,8 +209,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 ### Segurança
 
 ![Exemplo de Wireframe](images/segurança.jpg)
-
-
 
 
 # Metodologia
