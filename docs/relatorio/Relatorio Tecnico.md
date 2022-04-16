@@ -77,34 +77,16 @@ Neste documento serão apresentados os aspectos relevantes para o desenvolviment
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+A Persona criada para o projeto foi criada em conjunto com o mapa de empatia para permitir que nosso projeto consiga enxergar os estudantes mais a fundo, compreendendo o que eles sentem, quais suas necessidades, desejos e problemas mais íntimos. Através de um esquema gráfico composto por quadrantes, os insights que respondem a esses questionamentos são escritos e detalhados na imagem abaixo, além de ajudar a aprofundar e otimizar a persona. Portanto, a persona criada para nossa solução foi alguém com que o público-alvo se identifica, pois, ele também deseja conhecer sua área e também é estudante.
 
-> ![Caracteristicas Persona](images/Persona_Carac.jpg)
-> ![Mapa de Empatia](images/mapa_empatia.jpg)
+### Persona
+![Persona](images/Persona_Iquest.png)
 
+### Características Persona
+![Caracteristicas Persona](images/Persona_Carac.jpeg)
 
-> Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
-> você deve ser enumerar e descrever precisamente e de forma
-> personalizada todos os principais envolvidos com a solução almeja. 
-> 
-> Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Como fazer um mapa de empatia - Vídeo](https://www.youtube.com/watch?v=JlKHGpVoA2Y)
-> 
-> 
-> **Exemplo de Persona**
-> 
-> ![Exemplo de Persona](images/home.jpg)
-> 
-> Fonte: [Como criar uma persona para o seu negócio](https://raissaviegas.com.br/como-criar-uma-persona/)
-
+### Mapa de empatia
+![Mapa de Empatia](images/mapa_empatia.jpeg)
 
 ## Histórias de Usuários
 
@@ -251,48 +233,26 @@ As ferramentas empregadas no projeto são:
 |Hospedagem do site | Hostinger |  https://www.hostinger.com.br/ | 
 |Protótipo Interativo | NinjaMock| https://ninjamock.com/ | 
 |Desenvolvimento| VsCode| https://code.visualstudio.com/ | 
+|Organização do backlog| Trello | https://trello.com/pt-BR | 
+
 
 - O draw.io foi escolhido pela sua simplicidade em construir fluxos.
 - Github por ser uma plataforma de hospedagem de código-fonte e arquivos com controle de versão usando o Git mais conhecida por todos os participantes.
 - Hostinger para hospedagem do site por ser o mais barato e simples de utilizar.
 - NijaMock para Protótipo Interativo, pois, um dos participantes ja utilizou uma vez e tinha familiariedade.
 - VsCode para desenvolvimento por ser o que todos mais utilizam.
+- Trello foi utilizado para divisão de tarefas por ser simples e facíl de utilizar depois que foi criado um quadro Kanban
 
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Inicialmente somente um aluno criou o repositório a partir do template fornecido pelo professor. Para organização das partes de desenvolvimento, já que as tarefas foram divididas como demonstrado anteriormente, somente três branchs foram utilizadas:
 
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
+- Master
+- Desenvolvimento
+- Testes
+
+O fluxo segue da branch de testes --> desenvolvimento --> master. Sendo assim, nenhuma modificação é aprovada para a branch master sem aprovação do PR (Pull Request) antes, para evitar conflitos na parte do código já existente e funcional. O PR deve ser aprovado pelo aluno colocado com a função de Full-Stack. Não foi utilizado git-flow por questões de complexidade e tempo e experiência dos participantes do grupo.
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
