@@ -92,21 +92,10 @@ A Persona criada para o projeto foi criada em conjunto com o mapa de empatia par
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO | QUERO/PRECISO | PARA |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
+| Estudante recém formado | Sanar minhas duvidas relacionadas a área de TI | Escolher qual área seguir |
+| Administrador | Manter as informações do site atualizadas e funcionais| que possam estar condizentes com o cenário atual |
 
 ## Requisitos
 
@@ -147,12 +136,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Projeto de Interface
 
-......  COLOQUE AQUI O SEU TEXTO DE INTRODUÇÃO ......
+Visto que, usualmente, os usuários julgam um sistema por sua interface, para a realização de tal projeto decidimos utilizar uma interface projetada de acordo com a expectativa do nosso usuário, ou seja, um sistema que cause familiaridade para aqueles que vão utiliza-lo, fácil de ser manipulado, objetivo e que cause surpresa mínima no manipulador, consistente, no sentido de que, sempre que possível, operações semelhantes sejam ativadas da mesma maneira. 
 
-> Apresente as principais interfaces da solução. Discuta como 
-> foram elaboradas de forma a atender os requisitos funcionais, não
-> funcionais e histórias de usuário abordados nas [Especificações do
-> Projeto](#especificações-do-projeto).
+- Corpo do Site  
+
+Após a tela de login o usuário e levado para home. A tela inicial visa ser o mais objetiva possível, onde por meio de botões, escolhe-se, entre realizar o teste de aptidão ou conhecer mais sobre as áreas de TI, no qual ele é redirecionado para alguns cursos indicados. 
+
+- Teste de aptidão 
+
+O teste segue o mesmo design do site. Por meio de perguntas e respostas objetivas, é afunilada características essenciais, afim de guiar o usuário para uma área com mais afinidade, de acordo com suas respostas. 
+
+- Porque um site mais objetivo e dinâmico? 
+
+De acordo com a nossa análise de usuário, identificamos que nosso site é redirecionado para aqueles que já tem uma certa afinidade básica com a área de TI, ou seja, o nosso sistema irá servir de base ou inspiração para o rumo futuro que será tomado pelo cliente. Nesse caso o cliente necessita e quer que as informações sejam repassadas de forma mais rápida possível, tanto na indicação dos cursos, quanto no resultado do teste de aptidão.
 
 ## Wireframes e User Flow
 
@@ -195,17 +191,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
+Para o projeto foi utilizado o brainstorming (chuva de ideias) para definir o processo de execução do projeto. Logo após utilizamos o design thinking para fazer os fluxos de usuarios, o mapa de empatia, o mapa de stakeholders e definição da persona. Foi feito também a definição das áreas de atuação de cada participante e adicionado no backlog do projeto criado a partir do trello utilizando um modelo de organização Kanban, portanto, a separação das tarefas ficaram como: backlog --> todo --> doing --> done. Além disso, a matriz CSD e a separações de cada parte para iniciar o projeto foram criadas utilizando o draw.io. E por fim a confecção tanto do front-end com HTML, CSS e Bootstrap e o back-end com PHP foram organizadas no Github separadas pelas tarefas de cada um e utilizando 3 branchs (master --> desenvolvimento --> testes) e com a aprovação de qualquer modificação (PR) sendo feita pelo aluno colocado como responsável Full-Stack.
 
 ## Divisão de Papéis
 
