@@ -25,19 +25,36 @@
     <h1 class="titulo-aba-cursos">Áreas de TI</h1>
     <div class="tela-login container">
         <ul class="nav nav-tabs" id="aba-cursos">
-            <a href="#" id="botao_front" class="botao-esquerda" onmouseover="mudar_background('#1E90FF')" onmouseout="mudar_background('#272727')">Front-End</a>
-            <a href="amostra_curso.html" id="botao_back" class="botao-direita" onmouseover="mudar_background('#6600CC')" onmouseout="mudar_background('#272727')">Back-End</a>
-            <a href="amostra_curso.html" id="botao_full" class="botao-esquerda" onmouseover="mudar_background('#CC0000')" onmouseout="mudar_background('#272727')">Full-Stack</a>
-            <a href="amostra_curso.html" id="botao_devops" class="botao-direita" onmouseover="mudar_background('#0000CC')" onmouseout="mudar_background('#272727')">DevOps</a>
-            <a href="amostra_curso.html" id="botao_seg"class="botao-esquerda" onmouseover="mudar_background('#606060')" onmouseout="mudar_background('#272727')">Segurança</a>
-            <a href="amostra_curso.html" id="botao_redes" class="botao-direita" onmouseover="mudar_background('#009999')" onmouseout="mudar_background('#272727')">Redes</a>
-            <a href="amostra_quiz.html" id="botao_quiz" class="botao-final" onmouseover="mudar_background('#fb9e25')" onmouseout="mudar_background('#272727')">Faça o Teste de Aptidão</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_front" class="botao-esquerda" onmouseover="mudar_background('#1E90FF')" onmouseout="mudar_background('#272727')">Front-End</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_back" class="botao-direita" onmouseover="mudar_background('#6600CC')" onmouseout="mudar_background('#272727')">Back-End</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_full" class="botao-esquerda" onmouseover="mudar_background('#CC0000')" onmouseout="mudar_background('#272727')">Full-Stack</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_devops" class="botao-direita" onmouseover="mudar_background('#0000CC')" onmouseout="mudar_background('#272727')">DevOps</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_seg"class="botao-esquerda" onmouseover="mudar_background('#606060')" onmouseout="mudar_background('#272727')">Segurança</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_redes" class="botao-direita" onmouseover="mudar_background('#009999')" onmouseout="mudar_background('#272727')">Redes</a>
+            <a onclick="abre_modal('amostra_curso.html')" id="botao_quiz" class="botao-final" onmouseover="mudar_background('#fb9e25')" onmouseout="mudar_background('#272727')">Faça o Teste de Aptidão</a>
         </ul>
     </div>
+
+
+    <!-- O Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Conteúdo do Modal -->
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Você deseja ser redirecionado para página com informações sobre a área escolhida?</h1>
+        <a href="amostra_curso.html" id="bota_sim" class="botao-esquerda-modal">Sim</a>
+        <a id="botao_nao" class="botao-direita-modal">Não</a>
+    </div>
+
+    </div>
+
+
     <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>
 
 <script>
+        // Função para alterar a cor do background da aba de cursos
         function mudar_background(bg) {
 
         var aba_cursos = document.getElementById('aba-cursos')
@@ -45,36 +62,37 @@
 
         }
 
-        var botao_front = document.getElementById('botao_front');
-        var botao_back = document.getElementById('botao_back');
-        var botao_full = document.getElementById('botao_full');
-        var botao_devops = document.getElementById('botao_devops');
-        var botao_seg = document.getElementById('botao_seg');
-        var botao_redes = document.getElementById('botao_redes');
-        var botao_quiz = document.getElementById('botao_quiz');
+        // Pega o elemento do modal
+        var modal = document.getElementById("myModal");
 
-        botao_front.addEventListener('click', function (e) {
-             alert('Você será redirecionado para á página com informações sobre a área de front-end');
-        });
-        botao_back.addEventListener('click', function (e) {
-             alert('Você será redirecionado para á página com informações sobre a área de back-end');
-        });
-        botao_full.addEventListener('click', function (e) {
-             alert('Você será redirecionado para á página com informações sobre a área de full-stack');
-        });
-        botao_devops.addEventListener('click', function (e) {
-             alert('Você será redirecionado para á página com informações sobre a área de DevOps');
-        });
-        botao_seg.addEventListener('click', function (e) {
-             alert('Você será redirecionado para á página com informações sobre a área de segurança');
-        });
-        botao_redes.addEventListener('click', function (e) {
-             alert('Você será redirecionado para á página com informações sobre a área de redes de computadores');
-        });
-        botao_quiz.addEventListener('click', function (e) {
-             alert('Você será redirecionado para o quiz de aptidão');
-        });
+        // Pega o <span> que fecha o modal
+        var span = document.getElementsByClassName("close")[0];
 
+        var botao_sim = document.getElementById('botao_sim');
+        var botao_nao = document.getElementById('botao_nao');
+
+        function abre_modal(nome_pagina) {
+            modal.style.display = "block";
+
+            botao_sim.onclick = function() {
+                window.location.href=nome_pagina;
+            }
+
+            botao_nao.onclick = function() {
+              modal.style.display = "none";
+            }
+        }
+
+        span.onclick = function() {
+        modal.style.display = "none";
+        }
+
+        // Fecha o modal se clicar em qualquer lugar fora dele
+        window.onclick = function(event) {
+        if (event.target == modal) {
+            modal.style.display = "none";
+        }
+        }
 
     </script>
 

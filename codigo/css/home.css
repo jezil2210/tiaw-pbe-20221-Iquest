@@ -53,6 +53,57 @@
 	text-shadow:0px 1px 0px #cc9f52;
     margin-top: 5%;
 }
+
+.botao-esquerda-modal {
+	box-shadow:inset 0px -1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #03468a 100%);
+	background-color:#79bbff;
+	border-radius:23px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: Arial;
+	font-size:17px;
+	font-weight:bold;
+    padding: 16px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #528ecc;
+	margin-left: 35%;
+	margin-top: 3%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height:54px;
+    width:196px;
+    text-align: center;
+}
+
+.botao-direita-modal {
+	box-shadow:inset 0px -1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #03468a 100%);
+	background-color:#79bbff;
+	border-radius:23px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+    font-family: Arial;
+	font-size:17px;
+	font-weight:bold;
+    padding: 16px 10px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #528ecc;
+	margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    height:54px;
+    width:196px;
+    text-align: center;
+}
+
+.botao-esquerda-modal:hover, .botao-direita-modal:hover {
+	background:linear-gradient(to bottom, #03468a 5%, #79bbff 100%);
+	background-color:#03468a;
+}
+
 .botao-esquerda:hover, .botao-direita:hover {
 	background:linear-gradient(to bottom, #03468a 5%, #79bbff 100%);
 	background-color:#03468a;
@@ -84,3 +135,41 @@
     border-top: 20px solid #1E90FF;
     text-transform: uppercase;
 }
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+	color: #aaaaaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+  }
