@@ -21,8 +21,15 @@
 </head>
 
 <body>
-    
-    <h1 class="titulo-aba-cursos">Áreas de TI</h1>
+
+    <div class="header">
+    <div class="header-right">
+        <a class="active" href="home.php">Home</a>
+        <a href="amostra_quiz.html">Quiz</a>
+        <a href="amostra_sobre.html">Sobre</a>
+    </div>
+    </div>
+
     <div class="tela-login container">
         <ul class="nav nav-tabs" id="aba-cursos">
             <a onclick="abre_modal('amostra_curso.html')" id="botao_front" class="botao-esquerda" onmouseover="mudar_background('#1E90FF')" onmouseout="mudar_background('#272727')">Front-End</a>
@@ -42,7 +49,7 @@
     <!-- Conteúdo do Modal -->
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h1>Você deseja ser redirecionado para página com informações sobre a área escolhida?</h1>
+        <h1 id="titulo_modal"> Você deseja ser redirecionado para página com informações sobre a área escolhida?</h1>
         <a href="amostra_curso.html" id="bota_sim" class="botao-esquerda-modal">Sim</a>
         <a id="botao_nao" class="botao-direita-modal">Não</a>
     </div>
@@ -68,6 +75,7 @@
         // Pega o <span> que fecha o modal
         var span = document.getElementsByClassName("close")[0];
 
+        // Pega os botões.
         var botao_sim = document.getElementById('botao_sim');
         var botao_nao = document.getElementById('botao_nao');
 
@@ -85,6 +93,10 @@
 
         span.onclick = function() {
         modal.style.display = "none";
+        }
+
+        botao_nao.onclick = function() {
+              modal.style.display = "none";
         }
 
         // Fecha o modal se clicar em qualquer lugar fora dele
